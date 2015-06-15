@@ -1,0 +1,32 @@
+{
+  "name": "Twitter",
+  "version": "0.0.1",
+  "description": "Twitter api",
+  "main": "back-end/server.js",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "bluebird": "^2.8.1",
+    "body-parser": "~1.4.3",
+    "chalk": "^0.5.1",
+    "compression": "^1.2.0",
+    "express": "~4.4.3",
+    "method-override": "~2.0.2",
+    "moment": "^2.9.0",
+    "mongodb": "^1.4.7",
+    "mongoose": "^4.0.2",
+    "morgan": "~1.1.1",
+    "multer": "^0.1.6",
+    "twit": "^1.1.20"
+  },
+  "scripts": {
+    "start": "nodemon back-end/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/caninojories/twitter-velocity"
+  },
+  "author": "Jo-Ries P. Canino",
+  "license": "MIT",
+  "homepage": "https://github.com/caninojories/twitter-velocity"
+}
